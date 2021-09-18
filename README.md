@@ -1,2 +1,7 @@
 # COP-2220
-COP 2220 Course at LSSC for learning C
+This is my repository for my COP-2220 course at [Lake-Sumter State College](https://www.lssc.edu/) for my Computer Science Associates, my second class for computer programming following up [COP-1000](https://github.com/BlakeBarnes00/COP-1000), which was an introduction to programming using Python.
+
+## Sources I used for learning
+[C How to Program, 8th edition](https://www.pearson.com/store/p/c-how-to-program/P100001354868/9780133976892) is the book that I am learning from for this course. Having experience in C++ already I understand C, there is of course a lot different between the two I am coming to learn. Outside of the book however, theres not many resources that I am using to learn with aside from having to look at other peoples code to understand how things work time to time or going to a [public documentation](https://devdocs.io/c/) that I have recently found for C.
+
+<sub>There is obviously a huge part of these lessons that were done in the [MyProgrammingLab](https://mlm.pearson.com/northamerica/myprogramminglab/) website itself. Personally I did not feel the need to completely compile the work I did for the small files as a lot of them simply would just raise errors or warnings and annoy me visually in Visual Studio Code, I am sure people understand that inconvienence of seeing yellow or red lines.</sub>
