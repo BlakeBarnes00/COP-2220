@@ -53,3 +53,4 @@ dkms.conf
 
 #Temporary files made by vscode plugin
 tempCodeRunnerFile.c
+.vscode/
