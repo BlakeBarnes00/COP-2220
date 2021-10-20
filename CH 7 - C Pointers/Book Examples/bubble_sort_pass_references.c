@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define SIZE 10
 
-void bubble_sort(int *const array, const size_t size);
+void bubble_sort(int *const array);
 
 int main() {
 	int a[SIZE] = {1, 6, 6 ,7, 64, 23, 47, 2, 6, 10};
@@ -12,7 +12,7 @@ int main() {
 	}
 
 	printf("\nData in sorted order: \n");
-	bubble_sort(a, SIZE);
+	bubble_sort(a);
 
 	for(size_t i = 0; i < SIZE; i++) {
 		printf("%4i", a[i]);
@@ -22,9 +22,10 @@ int main() {
 	return 0;
 }
 
-void bubble_sort(int *const array, const size_t size) {
+void bubble_sort(int *const array) {
 	void swap(int *element1Ptr, int *element2Ptr);
-
+	size_t size = sizeof(array)/sizeof(int);
+	
 	// loop to control passes
 	for(unsigned int pass = 0; pass < size - 1; pass++) {
 		// loop to control comparisons during each pass
