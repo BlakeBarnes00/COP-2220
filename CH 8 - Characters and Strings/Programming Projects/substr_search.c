@@ -28,22 +28,22 @@ int main() {
 	if(fgets(search_string, 80, stdin) == NULL) {
 		return EXIT_FAILURE;
 	}
-	search_string[strlen(search_string) - 1] = '\0'; // remove the newline from fgets
+	search_string[strlen(search_string) - 1] = '\0'; // remove the newline from fgets()
 
 	// find the first occurance
 	char *first_occurance = strstr(input, search_string);
-	first_occurance[strlen(first_occurance) - 1] = '\0';
+	first_occurance[strlen(first_occurance) - 1] = '\0'; // remove the newline from fgets()
 	if(first_occurance == NULL) {
 		return EXIT_FAILURE;
 	}
 	printf("%s\n", first_occurance);
 
-	// find second occurance past the first ocurrance
+	// find second occurance past the first ocurrance, if there is not one then exit
 	char *second_occurance = strstr(first_occurance + strlen(search_string), search_string);
 	if(second_occurance == NULL) {
 		return EXIT_FAILURE;
 	}
 	printf("%s\n", second_occurance);
 
-	return 0;
+	return EXIT_SUCCESS;
 }
