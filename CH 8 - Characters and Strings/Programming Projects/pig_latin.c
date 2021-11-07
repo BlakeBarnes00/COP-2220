@@ -19,6 +19,8 @@
 	rules and variations, visit en.wikipedia.org/wiki/Pig_latin.
 */
 
+
+// Used Valgrind to make sure that there was no memory leaks
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
