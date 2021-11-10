@@ -1,0 +1,1 @@
+struct ADDRESS billing, shipping;

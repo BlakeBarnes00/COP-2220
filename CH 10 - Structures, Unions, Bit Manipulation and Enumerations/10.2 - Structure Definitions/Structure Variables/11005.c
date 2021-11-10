@@ -1,0 +1,1 @@
+struct DATE enrolled_on, paid_on, completed_on;

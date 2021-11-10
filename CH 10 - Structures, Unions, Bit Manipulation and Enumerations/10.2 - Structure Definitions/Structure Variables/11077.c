@@ -1,0 +1,1 @@
+struct Money revenue, expenses, profit;
