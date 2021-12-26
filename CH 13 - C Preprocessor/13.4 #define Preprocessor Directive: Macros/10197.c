@@ -1,0 +1,1 @@
+#define PLUS1(x) ((x)+1)
